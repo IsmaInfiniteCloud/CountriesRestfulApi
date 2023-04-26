@@ -1,3 +1,8 @@
+
+body {
+   background-color: #1010a0 !important;
+}
+
 .container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
@@ -10,8 +15,9 @@
   border-radius: 5px;
   padding: 20px;
   text-align: center;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+  box-shadow: 0 0 55px rgba(218, 225, 2, 0.8);
   border: 5px solid #131312;
+  border-radius:6%
 }
 
 .card img {
@@ -31,6 +37,7 @@
   margin-bottom: 10px;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   color: #1010a0;
+  
 }
 
 .card p {
