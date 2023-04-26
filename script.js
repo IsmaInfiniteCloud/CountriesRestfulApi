@@ -72,7 +72,7 @@ fetch('https://restcountries.com/v3.1/all')
       const coatOfArms = document.createElement('img');
 
       const area = document.createElement('h1');
-      area.textContent = `المساحة: ${country.area}`;
+      area.textContent = `المساحة : ${country.area}`;
       
       const maps = document.createElement('h4');
       const mapLink = document.createElement('a');
@@ -92,7 +92,7 @@ fetch('https://restcountries.com/v3.1/all')
       card.appendChild(area);
       if (country.region) { // Check if region exists before creating the element
         const region = document.createElement('h3');
-        region.textContent =` Region :${country.region}`;
+        region.textContent =` Region : ${country.region}`;
         card.appendChild(region);
       }
       maps.appendChild(mapLink);

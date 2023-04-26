@@ -1,7 +1,25 @@
 
 body {
-   background-color: #1010a0 !important;
+  background: linear-gradient(to right, #1aa010, #ff0000, #0000ff,#ffffff);
+  background-size: 600% 100%;
+  animation: gradient 20s ease infinite;
 }
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  25% {
+    background-position: 50% 25%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
 
 .container {
   display: grid;
@@ -11,13 +29,14 @@ body {
 }
 
 .card {
-  background-color: white;
+  background-color: rgb(244, 157, 110);
   border-radius: 5px;
   padding: 20px;
   text-align: center;
   box-shadow: 0 0 55px rgba(218, 225, 2, 0.8);
-  border: 5px solid #131312;
+  border: 5px solid #fdfbfd;
   border-radius:6%
+  
 }
 
 .card img {
@@ -36,7 +55,7 @@ body {
   font-weight: bold;
   margin-bottom: 10px;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  color: #1010a0;
+  color:#ffffff;
   
 }
 
