@@ -70,9 +70,13 @@ fetch('https://restcountries.com/v3.1/all')
       const coatOfArms = document.createElement('img');
       coatOfArms.src = country.coatOfArms.png;
       coatOfArms.alt = `${country.name.common} coat of arms`;
+      const flag = document.createElement('img');
+      flag.src = country.flags.png;
+      flag.alt = `${country.name.common} flag`;
       card.appendChild(name);
       card.appendChild(population);
       card.appendChild(coatOfArms);
+      card.appendChild(flag);
       container.appendChild(card);
     });
   })

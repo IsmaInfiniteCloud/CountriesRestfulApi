@@ -36,3 +36,19 @@
   font-size: 16px;
   margin-bottom: 0;
 }
+
+.card img:first-of-type {
+  display: block;
+}
+
+.card img:last-of-type {
+  display: none;
+}
+
+.card:hover img:first-of-type {
+  display: none;
+}
+
+.card:hover img:last-of-type {
+  display: block;
+}
