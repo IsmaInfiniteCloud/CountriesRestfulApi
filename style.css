@@ -11,7 +11,7 @@
   padding: 20px;
   text-align: center;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
-  border: 2px solid #e9d0d0;
+  border: 5px solid #131312;
 }
 
 .card img {
@@ -26,7 +26,7 @@
   }
 
 .card h2 {
-  font-size: 55px;
+  font-size: 50px;
   font-weight: bold;
   margin-bottom: 10px;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -35,7 +35,7 @@
 
 .card p {
   font-size: 20px;
-  margin-bottom: 0;
+  margin-bottom: 20px;
 }
 
 .card img:first-of-type {
@@ -53,4 +53,5 @@
 .card:hover img:last-of-type {
   display: block;
   transform: scale(1.2);
+
 }

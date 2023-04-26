@@ -68,15 +68,18 @@ fetch('https://restcountries.com/v3.1/all')
       const population = document.createElement('p');
       population.textContent = `Population: ${country.population}`;
       const coatOfArms = document.createElement('img');
+      const area = document.createElement('h1');
+      area.textContent = `المساحة: ${country.area}`;
       coatOfArms.src = country.coatOfArms.png;
       coatOfArms.alt = `${country.name.common} coat of arms`;
       const flag = document.createElement('img');
       flag.src = country.flags.png;
       flag.alt = `${country.name.common} flag`;
       card.appendChild(name);
-      card.appendChild(population);
       card.appendChild(coatOfArms);
       card.appendChild(flag);
+      card.appendChild(population);
+      card.appendChild(area);
       container.appendChild(card);
     });
   })
