@@ -6,7 +6,7 @@ This is a simple HTML, CSS, and JavaScript webpage that displays information abo
 # Usage
 To use this code, simply clone the repository to your local machine and open the index.html file in your web browser.
  
-git clone https://github.com/your-username/CountriesRestfulApi.git
+git clone https://github.com/manou141/CountriesRestfulApi.git
 
 cd CountriesRestfulApi
 
