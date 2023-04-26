@@ -1,6 +1,6 @@
 
 body {
-  background: linear-gradient(to right, #1aa010, #ff0000, #0000ff,#ffffff);
+  background: linear-gradient(to right, #1aa010, #ff0000, #840303, #0000ff, #ffffff, #000000);
   background-size: 600% 100%;
   animation: gradient 20s ease infinite;
 }
@@ -15,8 +15,12 @@ body {
   50% {
     background-position: 100% 50%;
   }
+  75% {
+    background-position: 50% 75%;
+  }
   100% {
     background-position: 0% 50%;
+    background-color: #ffffff;
   }
 }
 
