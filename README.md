@@ -1,5 +1,7 @@
 # CountriesRestfulApi
 CountriesRestfulApi" is a GitHub repo with HTML, CSS, and JS code that uses a RESTful API to fetch and display country data. It creates a card for each country showing the name, population, and coat of arms image. The cards are displayed using CSS Grid.
+![index imge](index.jpg)
+
  
 This is a simple HTML, CSS, and JavaScript webpage that displays information about countries using data from a RESTful API. The code fetches country data from the "https://restcountries.com/v3.1/all" endpoint, and creates a card for each country displaying the country name in bold, information about the population, and the coat of arms image in PNG format. The webpage uses CSS Grid to display the cards in a grid format.
 
